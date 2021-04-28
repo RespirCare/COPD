@@ -20,7 +20,7 @@ class Header extends Component {
       <header className={!this.state.start ? 'header intro' : 'header fade-in'}>
         <div>
           <img
-            src="./assets/lungs-svgrepo-com.svg"
+            src="./assets/coffee-cup.svg"
             alt="Logo"
             className={
               !this.state.start ? 'header--logo__large fade-in' : 'header--logo'
@@ -29,13 +29,7 @@ class Header extends Component {
           
           {!this.state.start ? (
             <React.Fragment>
-              <h1>What is food, really?</h1>
-              <p>
-                This food and drink trivia let you know more about your
-                knowledge of food!
-                
-              </p>
-               
+            
               <button onClick={this.isStart}>Start</button>
               
                        
