@@ -20,7 +20,7 @@ class Header extends Component {
       <header className={!this.state.start ? 'header intro' : 'header fade-in'}>
         <div>
           <img
-            src="./assets/coffee-cup.svg"
+            src="./assets/lungs-svgrepo-com.svg"
             alt="Logo"
             className={
               !this.state.start ? 'header--logo__large fade-in' : 'header--logo'
